@@ -1,4 +1,2 @@
-{"timestamp":"00:00:01.681","source":"Server","level":"WARN","message":"⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5"}
-{"timestamp":"00:00:01.734","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:29.020","source":"Server","level":"ERROR","message":"Failed to proxy http://localhost:4000/blog AggregateError"}
-{"timestamp":"00:00:29.022","source":"Server","level":"ERROR","message":"AggregateError"}
+{"timestamp":"00:00:00.339","source":"Server","level":"WARN","message":"⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5"}
+{"timestamp":"00:00:00.413","source":"Server","level":"LOG","message":""}
