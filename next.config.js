@@ -3,7 +3,8 @@ const { BLOG_URL } = process.env;
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async rewrites() {
-    return [
+    return {
+      beforeFiles: [
       {
         source: "/blog",
         destination: `${BLOG_URL}/blog`,
@@ -16,7 +17,8 @@ const nextConfig = {
         source: "/blog-static/_next/:path+",
         destination: `${BLOG_URL}/blog-static/_next/:path+`,
       },
-    ];
+      ],
+    };
   },
 };
 
